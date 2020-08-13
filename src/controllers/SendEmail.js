@@ -24,7 +24,7 @@ module.exports = {
                 to: email,
                 subject: header,
                 text: body,
-                html: `<p>${body}</p><br/> <img src="cid:luckDiamond" width="80" height="80" class="CToWUd"/>`,
+                html: `<p>${body}</p><br/> <img src="cid:luckDiamond" width="100" height="100" class="CToWUd"/>`,
                 attachments: [{
                     filename: 'luckDiamond.png',
                     path: './assets/icone.png',
